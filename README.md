@@ -1,4 +1,11 @@
-# Meeting Recorder
+# Meeting Recorder | 会议录音机
+
+[English](#english) | [中文](#chinese)
+
+---
+
+<a name="english"></a>
+# English Version
 
 > 🎖️ Dedicated to David Baker, 2024 Nobel Prize Laureate, whose groundbreaking work in protein design continues to inspire innovation in science and technology.
 
@@ -13,8 +20,8 @@ https://api.deepresearch2agi.cn/v1/audio/transcriptions
 ```
 
 For API access and custom solutions, please contact:
-- Email: [Your contact email]
-- WeChat: [Your WeChat ID]
+- Email: m19950870215@163.com
+- WeChat: 19950870215
 
 ## ✨ Features
 
@@ -108,8 +115,124 @@ Need customized solutions or enterprise support? Contact us for:
 
 For support or inquiries about using our free API service:
 - Create an issue in the GitHub repository
-- Contact: [Your contact information]
-- WeChat: [Your WeChat ID]
+- Email: m19950870215@163.com
+- WeChat: 19950870215
 
 ---
-Made with ❤️ by an AI developer, powered by Windsurf and DeepResearch2AGI
+
+<a name="chinese"></a>
+# 中文版本
+
+> 🎖️ 谨以此项目向2024年诺贝尔奖获得者David Baker致敬，他在蛋白质设计领域的开创性工作持续激励着科技创新。
+
+这是一款强大的iOS会议录音应用，使用DeepResearch2AGI API提供实时转录功能。本项目是人类智慧与Windsurf AI助手协作的成果。
+
+## 🌟 特别公告
+
+**对所有用户免费！**
+本应用对个人和企业用户完全免费。转录服务由我们的高性能API提供支持：
+```
+https://api.deepresearch2agi.cn/v1/audio/transcriptions
+```
+
+如需API访问权限和定制解决方案，请联系：
+- 电子邮件：m19950870215@163.com
+- 微信：19950870215
+
+## ✨ 功能特点
+
+- 🎙️ 高质量音频录制
+- 📝 使用DeepResearch2AGI API实时语音转文字
+- 💫 清晰直观的用户界面
+- 📤 转录文本导出功能
+- ⚡ 试用版10分钟限制
+- 💎 专业版无限制使用
+- 🔒 安全的API密钥管理
+- 🌐 企业级部署选项
+
+## 🚀 关于项目
+
+本项目代表了人工智能与人类创造力的完美融合：
+- 在Windsurf AI的协助下开发
+- 由DeepResearch2AGI的先进转录API提供支持
+- 由专业AI开发者倾心打造
+
+## 🛠️ 系统要求
+
+- iOS 14.0+
+- Xcode 13.0+
+- Swift 5.0+
+- DeepResearch2AGI API密钥（对所有用户免费！）
+
+## 📦 安装说明
+
+1. 克隆仓库：
+```bash
+git clone https://github.com/GanQiao1990/MeetingRecorder.git
+```
+
+2. 配置API密钥（选择以下方式之一）：
+
+   ### 方式一：使用Config.plist
+   - 复制`Config-Sample.plist`并重命名为`Config.plist`
+   - 将`YOUR_API_KEY_HERE`替换为您的DeepResearch2AGI API密钥
+   - 如需要可更新`WhisperBaseURL`
+
+   ### 方式二：使用环境变量
+   - 设置环境变量`WHISPER_API_KEY`为您的API密钥
+   - 默认API端点已配置为DeepResearch2AGI
+   
+   在Xcode中设置环境变量：
+   1. 编辑方案 > 运行 > 参数 > 环境变量
+   2. 添加`WHISPER_API_KEY`及您的密钥
+
+3. 在Xcode中打开`MeetingRecorder.xcodeproj`
+
+4. 构建并运行项目
+
+## 🔐 安全最佳实践
+
+- 永远不要将`Config.plist`提交到版本控制（已在.gitignore中配置）
+- 在CI/CD管道中使用环境变量
+- 定期轮换API密钥
+- 监控API使用情况防止未授权访问
+- 保持依赖项更新
+
+## 🎯 使用方法
+
+1. 启动应用
+2. 点击"开始录制"
+3. 对着设备麦克风清晰说话
+4. 在文本区域查看实时转录
+5. 完成时点击"停止录制"
+6. 使用"导出转录"按钮保存或分享
+
+## 📄 许可证
+
+本项目采用MIT许可证 - 详见[LICENSE](LICENSE)文件。
+
+## 🤝 贡献指南
+
+1. Fork本仓库
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m '添加某个特性'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 创建Pull Request
+
+## 💡 企业解决方案
+
+需要定制解决方案或企业支持？我们提供：
+- 自定义API集成
+- 增强功能
+- 专属支持
+- 企业部署
+
+## 📞 联系与支持
+
+如需支持或咨询免费API服务：
+- 在GitHub仓库创建issue
+- 电子邮件：m19950870215@163.com
+- 微信：19950870215
+
+---
+由AI开发者倾情打造，由Windsurf和DeepResearch2AGI提供技术支持 ❤️
