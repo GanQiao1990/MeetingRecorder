@@ -1,0 +1,88 @@
+{
+  "identifier" : "9B7CCADB",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "29.99",
+      "familyShareable" : true,
+      "internalID" : "6577F23A",
+      "localizations" : [
+        {
+          "description" : "Unlock unlimited recording time and advanced features",
+          "displayName" : "Pro License",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "解锁无限录音时长和高级功能",
+          "displayName" : "专业版许可",
+          "locale" : "zh_CN"
+        }
+      ],
+      "productID" : "com.meetingrecorder.prolicense",
+      "referenceName" : "Pro License",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1234567890",
+    "_developerTeamID" : "YOURTEAMID",
+    "_lastSynchronizedDate" : 719161763.05441403
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "20891BB9",
+      "localizations" : [
+        {
+          "description" : "Professional Meeting Recording Subscription",
+          "displayName" : "Meeting Recorder Pro",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "专业会议录音订阅",
+          "displayName" : "会议录音专业版",
+          "locale" : "zh_CN"
+        }
+      ],
+      "name" : "Pro Subscription",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "15.00",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "789ABC",
+          "introductoryOffer" : {
+            "internalID" : "123DEF",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "• Unlimited recording time\n• High-quality transcription\n• Export to multiple formats\n• Priority support\n• No ads",
+              "displayName" : "Pro Monthly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "• 无限录音时长\n• 高质量转录\n• 多格式导出\n• 优先支持\n• 无广告",
+              "displayName" : "专业版月度订阅",
+              "locale" : "zh_CN"
+            }
+          ],
+          "productID" : "com.meetingrecorder.promonthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pro Monthly",
+          "subscriptionGroupID" : "20891BB9",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
