@@ -4,5 +4,7 @@
 <dict>
     <key>WhisperAPIKey</key>
     <string>YOUR_API_KEY_HERE</string>
+    <key>WhisperBaseURL</key>
+    <string>https://api.deepresearch2agi.cn/v1/audio/transcriptions</string>
 </dict>
 </plist>

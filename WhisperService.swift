@@ -11,9 +11,9 @@ class WhisperService: NSObject {
     private var isRecording = false
     private var recordingDelegate: ((Result<String, Error>) -> Void)?
     
-    override init() {
-        self.apiKey = Config.whisperAPIKey
-        self.baseURL = "https://api.gptnb.ai/v1/audio/transcriptions"
+    override init() throws {
+        self.apiKey = try Config.whisperAPIKey
+        self.baseURL = Config.whisperBaseURL
         self.audioSession = AVAudioSession.sharedInstance()
         super.init()
     }
